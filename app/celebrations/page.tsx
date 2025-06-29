@@ -15,7 +15,7 @@ export default function CelebrationsPage() {
     <section className="p-6 md:p-12 bg-white text-gray-800">
       <SectionHeader title="Celebration Highlights" />
       <p className="mb-6 max-w-3xl text-lg">
-        The joy of Kamweretho radiates through these vibrant moments of celebration—dance, laughter, gifting, and shared memories. It’s a collective embrace of culture and continuity.
+        The joy of Kamweretho radiates through these vibrant moments of celebration—dance, laughter, gifting, and shared memories. Its a collective embrace of culture and continuity.
       </p>
       <ImageGallery images={images} />
     </section>

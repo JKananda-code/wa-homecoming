@@ -13,7 +13,7 @@ export default function Introduction() {
         </p>
 
         <p className="text-lg leading-relaxed">
-          In Kikuyu tradition, married daughters become part of their husband's lineage and are not typically considered heirs of their own parents’ property. However, daughters who remain unmarried or are single parents may inherit equally alongside their brothers.
+          In Kikuyu tradition, married daughters become part of their husbands lineage and are not typically considered heirs of their own parents property. However, daughters who remain unmarried or are single parents may inherit equally alongside their brothers.
         </p>
 
         <p className="text-lg leading-relaxed">
