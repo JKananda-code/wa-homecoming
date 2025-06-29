@@ -6,7 +6,7 @@ export default function Home() {
       <main>
         <h1 className="flex justify-center text-4xl bg-cyan-200"> Wanjiku Elijah Kimotho</h1>
         <Image
-          src="/Wanjiku.jpg"
+          src="/Wanjiku-Elijah-Caption.jpeg"
           alt="Wanjiku Photo"
           width={800}
           height={300}
