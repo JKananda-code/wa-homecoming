@@ -4,8 +4,9 @@ import SectionHeader from '../components/SectionHeader';
 
 export default function CelebrationsPage() {
   const images = [
+    { src: '/images/cake.jpeg', caption: 'Cake for the Celebration' },
     { src: '/images/music.jpg', caption: 'Traditional Music & Dance' },
-    { src: '/images/cake-cutting.jpg', caption: 'Cutting the Celebration Cake' },
+    { src: '/images/cake-cutting.jpg', caption: 'Cutting the Cake' },
     { src: '/images/leso-girls.jpg', caption: 'Lesos for the Sisters' },
     { src: '/images/shirts-boys.jpg', caption: 'Shirts for the Brothers' },
     { src: '/images/presenting-parents.jpg', caption: 'Presents to the Parents' },
