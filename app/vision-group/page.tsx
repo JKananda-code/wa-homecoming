@@ -8,6 +8,7 @@ export default function VisionGroupPage() {
     { src: '/images/vice-chair.jpg', caption: 'Vice Chair' },
     { src: '/images/secretary.jpg', caption: 'Secretary' },
     { src: '/images/treasurer.jpg', caption: 'Treasurer' },
+    { src: '/images/wa-Vision-Group.jpg', caption: 'Vision Group Members'},
   ];
   const members = Array.from({ length: 10 }, (_, i) => ({
     src: `/images/member${i + 1}.jpg`,

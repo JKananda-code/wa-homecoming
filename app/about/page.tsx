@@ -1,13 +1,26 @@
-
-'use client';
-
-import React from 'react';
+'use client'
+import Image from 'next/image';
 
 export default function Introduction() {
   return (
-    <section className="bg-white text-gray-900 py-12 px-6 md:px-16">
+  <>
+  <div className="grid place-items-center" >
+        <h1 className="flex justify-center text-4xl bg-cyan-200"> Wanjiku Elijah Kimotho</h1>
+        <div className="relative h-screen">
+         <Image
+          src="/Wanjiku-Elijah-Caption.jpeg"
+          alt="Wanjiku Photo"
+          width={800}
+          height={400}
+          priority
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          />
+       </div>
+  </div>
+  <section className="bg-white text-gray-900 py-12 px-6 md:px-16">
+
       <div className="max-w-4xl mx-auto space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-emerald-700">Wanjiku Homecoming</h1>
+
         <p className="text-lg leading-relaxed">
           <strong>Wanjiku Elijah’s Homecoming Ceremony</strong> is rooted in the rich cultural traditions of the Kikuyu community. The event, known as <em>Kamweretho</em> in Nyeri, honors parents and reconnects generations in a deeply meaningful way.
         </p>
@@ -21,7 +34,7 @@ export default function Introduction() {
         </p>
 
         <div className="border-l-4 border-emerald-500 pl-4 text-gray-700 italic">
-          “On June 28th, 2025, I, Wanjiku Elijah, will return home to honor my beloved parents, Elijah and Gathigia Kimotho. With my son, Elijah Kimotho, I extend this love across generations. You are most welcome to be part of this journey.”
+          “On June 28th, 2025, I returned home to honor my beloved parents, Elijah and Gathigia Kimotho. Both my son, Elijah Kimotho, and I extended this love which has persisted across generations in our community. I am especially grateful to those of you who came in person and to those who could not make it, I invite you to watch the pictures and videos found in this website to feel as part of this process.”
         </div>
 
         <p className="text-lg leading-relaxed">
@@ -29,5 +42,6 @@ export default function Introduction() {
         </p>
       </div>
     </section>
+  </>
   );
 }

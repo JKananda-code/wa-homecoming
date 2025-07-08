@@ -1,10 +1,9 @@
-
 import ImageGallery from '../components/ImageGallery';
 import SectionHeader from '../components/SectionHeader';
 
 export default function CelebrationsPage() {
-  const images = [
-    { src: '/images/cake.jpeg', caption: 'Cake for the Celebration' },
+  const Images = [
+    { src: '/images/wa-Thecake.jpeg', caption: 'Cake for the Celebration' },
     { src: '/images/music.jpg', caption: 'Traditional Music & Dance' },
     { src: '/images/cake-cutting.jpg', caption: 'Cutting the Cake' },
     { src: '/images/leso-girls.jpg', caption: 'Lesos for the Sisters' },
@@ -18,7 +17,7 @@ export default function CelebrationsPage() {
       <p className="mb-6 max-w-3xl text-lg">
         The joy of Kamweretho radiates through these vibrant moments of celebration—dance, laughter, gifting, and shared memories. Its a collective embrace of culture and continuity.
       </p>
-      <ImageGallery images={images} />
+      <ImageGallery images={Images} />
     </section>
   );
 }
