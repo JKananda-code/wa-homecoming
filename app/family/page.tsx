@@ -12,7 +12,10 @@ export default function FamilyPage() {
     { src: '/wa-brothers-three.jpeg', caption: 'A third view of brothers' },
     { src: '/wa-sisters-one.jpeg', caption: 'Siblings: Wanjiku Sisters' },
     { src: '/wa-sisters-two.jpeg', caption: 'Siblings: Another view of Sisters' },
-    ...Array.from({ length: 3 }, (_, i) => ({
+    { src: '/wa-TheCake.jpeg', caption: 'The Cake: Sharable Gift for the Parents.' },
+    { src: '/wa-CuttingOfCake.jpeg', caption: 'Cake cut and shared on behalf of the Parents' },
+    { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
+      ...Array.from({ length: 3 }, (_, i) => ({
       src: `/images/sibling${i + 1}.jpg`,
       caption: `Sibling ${i + 1}`
     }))
@@ -20,11 +23,16 @@ export default function FamilyPage() {
 
   return (
     <section className="p-6 md:p-12 bg-white text-gray-800">
+      <div className="justify justify-center items-center text-center">
+        <h1 className="text-3xl bg-yellow-300 md:text-4xl font-bold mb-4">Family Moments In Pictures</h1>
+        <p className="text-lg md:text-xl mb-6">
+          A collection of cherished family moments, celebrating the bonds that bring us together.
+        </p>
       <SectionHeader title="Family Moments" />
-      <p className="mb-6 max-w-3xl text-lg">
-        The heart of Kamweretho lies in honoring ones roots. Here, Wanjiku and her son return home to celebrate their lineage. These images reflect the warmth, connection, and love that binds generations together.
-      </p>
+      
+      </div>
       <ImageGallery images={images} />
+     
     </section>
   );
 }
