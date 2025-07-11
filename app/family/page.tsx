@@ -12,7 +12,7 @@ export default function FamilyPage() {
     { src: '/wa-brothers-three.jpeg', caption: 'A third view of brothers' },
     { src: '/wa-sisters-one.jpeg', caption: 'Siblings: Wanjiku Sisters' },
     { src: '/wa-sisters-two.jpeg', caption: 'Siblings: Another view of Sisters' },
-    { src: '/wa-TheCake.jpeg', caption: 'The Cake: Sharable Gift for the Parents.' },
+    { src: '/wa-CakeInBasket.jpeg', caption: 'The Cake: Sharable Gift for the Parents.' },
     { src: '/wa-CuttingOfCake.jpeg', caption: 'Cake cut and shared on behalf of the Parents' },
     { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
       ...Array.from({ length: 3 }, (_, i) => ({
