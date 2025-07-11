@@ -13,7 +13,7 @@ export default function Home() {
         height={600}
       />
       <h1 className="text-3xl font-bold text-center text-emerald-700 mb-4">Welcome to Wanjiku Homecoming</h1>
-      <p className="text-center text-gray-700 mb-8">
+      <p className="text-center text-gray-700 mb-4">
         Celebrating the rich cultural heritage of the Kikuyu community through the Kamweretho ceremony.
       </p>
     </div> 
