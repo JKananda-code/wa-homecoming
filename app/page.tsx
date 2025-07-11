@@ -30,9 +30,8 @@ export default function Home() {
         <h2 className="text-lg leading-relaxed">
           <strong>Kamweretho</strong> ceremonies are organized by daughters to appreciate and celebrate their upbringing. In regions like Nyeri, this tradition is embraced, while in others like Kiambu and Murang’a—where PCEA Church influence is strong—it has been met with opposition. Nonetheless, many still honor the practice as a vital expression of cultural identity.
         </h2>
-        <div className="border-l-4 border-emerald-500 pl-4 text-gray-700 italic text-bold bg-cyan-200">
-          “On June 28th, 2025, I, Wanjiku Elijah, returned home to honor my beloved parents, Elijah and Gathigia Kimotho. My son, Elijah Kimotho, and I extended this love which has been repeated across generations. I thank all of you who came in person and to those who could not, you are most welcome to feel part of the celebration by watching the pictures included here.
-          Thank you again for being a part of this journey.”
+         <div className="border-l-4 border-emerald-500 pl-4 text-gray-700 italic">
+          “On June 28th, 2025, Wanjiku Elijah returned home to honor her beloved parents, Elijah and Gathigia Kimotho. She and her son, Elijah Kimotho, extended this love which has persisted across generations in Kikuyu community. She is especially grateful to those who came in person and to those who could not make it, she invites them to watch the pictures and videos found in this website and they will feel part of this ceremony.”
         </div>
       </div>
     </section>  

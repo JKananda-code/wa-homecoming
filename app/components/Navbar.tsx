@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navItems = [
+ 
+  { name: 'Introduction', path: '/' },
   { name: 'Family', path: '/family' },
   { name: 'Vision Group', path: '/vision-group' },
   { name: 'Celebrations', path: '/celebrations' },

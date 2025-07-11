@@ -34,7 +34,7 @@ export default function Introduction() {
         </p>
 
         <div className="border-l-4 border-emerald-500 pl-4 text-gray-700 italic">
-          “On June 28th, 2025, I returned home to honor my beloved parents, Elijah and Gathigia Kimotho. Both my son, Elijah Kimotho, and I extended this love which has persisted across generations in our community. I am especially grateful to those of you who came in person and to those who could not make it, I invite you to watch the pictures and videos found in this website to feel as part of this process.”
+          “On June 28th, 2025, Wanjiku Elijah returned home to honor her beloved parents, Elijah and Gathigia Kimotho. She and her son, Elijah Kimotho, extended this love which has persisted across generations in Kikuyu community. She is especially grateful to those who came in person and to those who could not make it, she invites them to watch the pictures and videos found in this website and they will feel part of this ceremony.”
         </div>
 
         <p className="text-lg leading-relaxed">
