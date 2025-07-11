@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import ImageGallery from '../components/ImageGallery';
 import SectionHeader from '../components/SectionHeader';
 
