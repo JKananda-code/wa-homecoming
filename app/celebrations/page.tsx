@@ -4,11 +4,12 @@ import SectionHeader from '../components/SectionHeader';
 
 export default function CelebrationsPage() {
   const images = [
-    { src: '/images/music.jpg', caption: 'Traditional Music & Dance' },
-    { src: '/images/cake-cutting.jpg', caption: 'Cutting the Celebration Cake' },
-    { src: '/images/leso-girls.jpg', caption: 'Lesos for the Sisters' },
-    { src: '/images/shirts-boys.jpg', caption: 'Shirts for the Brothers' },
-    { src: '/images/presenting-parents.jpg', caption: 'Presents to the Parents' },
+    { src: '/Celeb-one.jpeg', caption: 'Traditional Music & Dance' },
+    { src: '/Celeb-two.jpeg', caption: 'Celeb Activities caught on camera' },
+    { src: '/Celeb-three.jpeg', caption: 'More Celeb Activities on camera' },
+    { src: '/Celeb-four.jpeg', caption: 'Celeb Activities on camera' },
+    { src: '/Celeb-five.jpeg', caption: 'More Celeb Activities on camera' },
+    { src: '/Celeb-six.jpeg', caption: 'More Celeb activities on camera' },
   ];
 
   return (

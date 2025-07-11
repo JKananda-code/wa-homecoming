@@ -16,7 +16,7 @@ export default function FamilyPage() {
     { src: '/wa-CuttingOfCake.jpeg', caption: 'Cake cut and shared on behalf of the Parents' },
     { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
       ...Array.from({ length: 3 }, (_, i) => ({
-      src: `/images/sibling${i + 1}.jpg`,
+      src: `/images/sibling${i + 1}.jpeg`,
       caption: `Sibling ${i + 1}`
     }))
   ];
@@ -28,8 +28,7 @@ export default function FamilyPage() {
         <p className="text-lg md:text-xl mb-6">
           A collection of cherished family moments, celebrating the bonds that bring us together.
         </p>
-      <SectionHeader title="Family Moments" />
-      
+      <SectionHeader title="Family Moments" /> 
       </div>
       <ImageGallery images={images} />
      

@@ -4,14 +4,14 @@ import SectionHeader from '../components/SectionHeader';
 
 export default function VisionGroupPage() {
   const coreMembers = [
-    { src: '/images/chairman.jpg', caption: 'Chairman' },
-    { src: '/images/vice-chair.jpg', caption: 'Vice Chair' },
-    { src: '/images/secretary.jpg', caption: 'Secretary' },
-    { src: '/images/treasurer.jpg', caption: 'Treasurer' },
-    { src: '/images/wa-Vision-Group.jpg', caption: 'Vision Group Members'},
-  ];
-  const members = Array.from({ length: 10 }, (_, i) => ({
-    src: `/images/member${i + 1}.jpg`,
+    { src: '/VG-chairman.jpeg', caption: 'VG Group Chairman?Chairman' },
+    { src: '/VG-MC.jpeg', caption: 'VG Master of Celemonies?' },
+    { src: '/VG-theCake.jpeg', caption: 'VG Cake presentation' },
+    { src: '/VG-two.jpeg', caption: 'VG Group Members' },
+    { src: '/VG-three.jpeg', caption: 'VG Group Members'},
+    { src: '/VG-four.jpeg', caption: 'VG Group Members' },  ];
+  const members = Array.from({ length: 6 }, (_, i) => ({
+    src: `/member${i + 1}.jpeg`,
     caption: `Member ${i + 1}`
   }));
 
