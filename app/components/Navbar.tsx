@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <nav className="bg-emerald-700 text-white shadow">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <span className="font-bold text-sm">Homecoming</span>
+        <span className="font-bold text-sm mr-3">Homecoming</span>
         <ul className="flex space-x-6">
           {navItems.map((item) => (
             <li key={item.name}>
