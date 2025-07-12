@@ -14,10 +14,13 @@ export default function CelebrationsPage() {
 
   return (
     <section className="p-6 md:p-12 bg-white text-gray-800">
+      <div className="justify justify-center items-center text-center">
+        <h1 className="text-3xl bg-yellow-300 md:text-4xl font-bold mb-4">Celebrations</h1>
+        <p className="text-lg md:text-xl mb-6">
+          Celebrating the rich traditions and joyous moments that define our community.
+        </p>
       <SectionHeader title="Celebration Highlights" />
-      <p className="mb-6 max-w-3xl text-lg">
-        The joy of Kamweretho radiates through these vibrant moments of celebration—dance, laughter, gifting, and shared memories. It’s a collective embrace of culture and continuity.
-      </p>
+      </div>
       <ImageGallery images={images} />
     </section>
   );
