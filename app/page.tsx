@@ -13,14 +13,14 @@ export default function Home() {
         height={600}
       />
       <h1 className="text-3xl font-bold text-center text-emerald-700 mb-4">Welcome to Wanjiku Homecoming</h1>
-      <p className="text-center text-gray-700 mb-4">
+      <p className="text-center text-gray-700">
         Celebrating the rich cultural heritage of the Kikuyu community through the Kamweretho ceremony.
       </p>
     </div> 
     </div>   
-    <section className="bg-white text-gray-900 py-4 px-6 md:px-16">
+    <section className="bg-white text-gray-900 px-6 md:px-16">
       <div className="max-w-4xl mx-auto space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-yellow-300">Wanjiku Homecoming</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-yellow-500">Wanjiku Homecoming</h1>
         <h2 className="text-lg leading-relaxed">
           <strong>Wanjiku Elijah’s Homecoming Ceremony</strong> is rooted in the rich cultural traditions of the Kikuyu community. The event, known as <em>Kamweretho</em> in Nyeri, honors parents and reconnects generations in a deeply meaningful way.
         </h2>
