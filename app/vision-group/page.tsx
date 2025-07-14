@@ -23,7 +23,7 @@ export default function VisionGroupPage() {
         <p className="text-lg md:text-xl mb-6">
           A community is held together by those who lead with heart. Here we honor Vision Group members whose support brought Kamweretho to life, alongside cherished friends of the family.
         </p> 
-        <p>
+        <p className="text-lg md:text-xl mb-2">
             <VideoPlayer />
         </p>
              <SectionHeader title="Vision Group & Friends" />
