@@ -16,10 +16,10 @@ export default function FamilyPage() {
     { src: '/wa-CuttingOfCake.jpeg', caption: 'Cake cut and shared on behalf of the Parents' },
     { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
       ...Array.from({ length: 3 }, (_, i) => ({
-      src: `/images/sibling${i + 1}.jpeg`,
-      caption: `Sibling ${i + 1}`
+     src: `/images/siblings${i + 1}.jpeg`,
+      caption: `/siblings${i + 1}`,
     }))
-  ];
+  ]
 
   return (
     <section className="p-6 md:p-12 bg-white text-gray-800">

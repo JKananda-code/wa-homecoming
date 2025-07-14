@@ -1,6 +1,7 @@
 
 import ImageGallery from '../components/ImageGallery';
 import SectionHeader from '../components/SectionHeader';
+import VideoPlayer from '../videos/page';
 
 export default function VisionGroupPage() {
   const coreMembers = [
@@ -22,9 +23,12 @@ export default function VisionGroupPage() {
         <p className="text-lg md:text-xl mb-6">
           A community is held together by those who lead with heart. Here we honor Vision Group members whose support brought Kamweretho to life, alongside cherished friends of the family.
         </p> 
-      <SectionHeader title="Vision Group & Friends" />
+        <p>
+            <VideoPlayer />
+        </p>
+             <SectionHeader title="Vision Group & Friends" />
       </div>
-       <ImageGallery images={images} />
+             <ImageGallery images={images} />
     </section>
   );
 }
