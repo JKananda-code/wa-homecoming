@@ -16,7 +16,7 @@ const VideoPlayer = () => {
                   className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   />
          </div>
-         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-7xl text-black bg-yellow-300 font-bold">
+         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl text-black bg-yellow-300 font-bold">
          Mulima-Tosha
          </h1>
         <div>       
