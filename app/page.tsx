@@ -36,8 +36,8 @@ export default function Home() {
       </div>
     </section>  
      
-       <div className="flex justify-center items-center">
-         <div className="border-l-4 border-emerald-500 pl-4 text-gray-700 italic text-bold bg-yellow-200">
+       <div className="flex justify-center items-center mt3">
+         <div className="border-l-4 border-emerald-500 pl-4 text-gray-700 italic text-bold bg-yellow-300">
           This celebration of family, tradition, and legacy brings the community together and ensures that younger generations connect with their heritage meaningfully and respectfully.
         </div>       
       </div> 

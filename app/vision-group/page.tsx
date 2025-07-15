@@ -1,4 +1,4 @@
-
+import PageTransition from '../components/PageTransition';
 import ImageGallery from '../components/ImageGallery';
 import SectionHeader from '../components/SectionHeader';
 import VideoPlayer from '../videos/page';
@@ -10,13 +10,21 @@ export default function VisionGroupPage() {
     { src: '/VG-theCake.jpeg', caption: 'VG Cake presentation' },
     { src: '/VG-two.jpeg', caption: 'VG Group Members' },
     { src: '/VG-three.jpeg', caption: 'VG Group Members'},
-    { src: '/VG-four.jpeg', caption: 'VG Group Members' },  ];
-  const members = Array.from({ length: 6 }, (_, i) => ({
-    src: `/images/member${i + 1}.jpeg`,
-    caption: `Member ${i + 1}`
-  }));
-  const images = [...coreMembers, ...members];
+    { src: '/VG-four.jpeg', caption: 'VG Group Members' }, 
+    { src: '/Wanjiku-Elijah-Caption.jpeg', caption: 'VG Group Member' },
+    { src: '/Mumbi-1-Vg.jpeg', caption: 'VG Group Member' },
+    { src: '/Mumbi-2-Vg.jpeg', caption: 'VG Group Member' },
+    { src: '/Mumbi-3-Vg.jpeg', caption: 'VG Group Member' },
+    { src: '/Mumbi-4-Vg.jpeg', caption: 'VG Group Member' },
+    { src: '/Mumbi-5-Vg.jpeg', caption: 'VG Group Member' },
+    { src: '/Mumbi-6-Vg.jpeg', caption: 'VG Group Member' },];
+  const members = Array.from({ length: 6 }, (_, i) => ({    
+  src: `/members${i + 1}.jpeg`,
+ caption: `Members${i + 1}`
+ }));
+ const images = [...coreMembers, ...members];
   return (
+  <PageTransition>
     <section className="p-6 md:p-12 bg-white text-gray-800">
       <div className="justify justify-center items-center text-center">
         <h1 className="text-3xl bg-yellow-300 md:text-4xl font-bold mb-4">Kamweretho In Action</h1>
@@ -30,5 +38,6 @@ export default function VisionGroupPage() {
       </div>
              <ImageGallery images={images} />
     </section>
+  </PageTransition>
   );
 }
