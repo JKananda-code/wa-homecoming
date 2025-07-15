@@ -12,13 +12,13 @@ export default function VisionGroupPage() {
     { src: '/VG-three.jpeg', caption: 'VG Group Members'},
     { src: '/VG-four.jpeg', caption: 'VG Group Members' }, 
     { src: '/Wanjiku-Elijah-Caption.jpeg', caption: 'VG Group Member' },
-    { src: '/Mumbi-1-Vg.jpeg', caption: 'VG Group Member' },
-    { src: '/Mumbi-2-Vg.jpeg', caption: 'VG Group Member' },
-    { src: '/Mumbi-3-Vg.jpeg', caption: 'VG Group Member' },
-    { src: '/Mumbi-4-Vg.jpeg', caption: 'VG Group Member' },
-    { src: '/Mumbi-5-Vg.jpeg', caption: 'VG Group Member' },
-    { src: '/Mumbi-6-Vg.jpeg', caption: 'VG Group Member' },];
-  const members = Array.from({ length: 6 }, (_, i) => ({    
+    { src: '/Mumbi-1-Vg.jpeg', caption: 'Photo of VG Group Member' },
+    { src: '/Mumbi-2-Vg.jpeg', caption: 'Photo of VG Group Member' },
+    { src: '/Mumbi-3-Vg.jpeg', caption: 'Photo of VG Group Member' },
+    { src: '/Mumbi-4-Vg.jpeg', caption: 'Photo of VG Group Member' },
+    { src: '/Mumbi-5-Vg.jpeg', caption: 'Photo of VG Group Member' },
+    { src: '/Mumbi-6-Vg.jpeg', caption: 'Photo of VG Group Member' },];
+  const members = Array.from({ length: 0 }, (_, i) => ({    
   src: `/members${i + 1}.jpeg`,
  caption: `Members${i + 1}`
  }));
