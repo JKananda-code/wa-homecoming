@@ -18,10 +18,10 @@ export default function FamilyPage() {
     { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
     { src: '/Father-Grandfather.jpg', caption: 'Father and Grandfather: Elijah Kimotho Sr..' },
     { src: '/Mother-Grandmother.jpg', caption: 'Mother and Grandmother: Gathigia Kimotho.' },
-    { src: '/Mwangi.jpeg', caption: 'Mwangi: Elijah Wanjiku Uncle' },
+    { src: '/Mwangi.jpeg', caption: 'Mum younest brother: Wanjiku Elijah Uncle' },
     { src: '/Mureithi.jpg', caption: 'Mureithi: Elijah Wanjiku Uncle' },
     { src: '/Kinyua.jpeg', caption: 'Kinyua: Elijah Wanjiku uncle' },
-    { src: '/Wanjohi.jpg', caption: 'Wanjohi Wanjiku Elijah uncle' },
+    { src: '/Wanjohi.jpg', caption: 'Wanjohi: Elijah Wanjiku uncle' },
       ...Array.from({ length: 3 }, (_, i) => ({
      src: `/images/siblings${i + 1}.jpeg`,
       caption: `/siblings${i + 1}`,
