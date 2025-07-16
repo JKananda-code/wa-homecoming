@@ -10,7 +10,8 @@ export default function Footer() {
           href="#"
           className="inline-block bg-white text-emerald-700 font-semibold px-6 py-3 rounded hover:bg-emerald-100 transition"
         >
-          RSVP to the Ceremony
+          RSVP Contact Chairman - VG Group
+
         </a>
         <p className="text-xs text-gray-200 mt-6">© {new Date().getFullYear()} Wanjiku Homecoming. By Ken Design. All rights reserved.</p>
       </div>

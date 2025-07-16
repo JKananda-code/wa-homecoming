@@ -8,8 +8,8 @@ const navItems = [
   { name: 'Intro', path: '/' },
   { name: 'Family', path: '/family' },
   { name: 'Vision', path: '/vision-group' },
-  { name: 'Celebrations', path: '/celebrations' },
-];
+  { name: 'Celebrations', path: '/celebrations'},
+  { name: 'Contact-Us', path: '/Contact-Us' },];
 
 export default function Navbar() {
   const pathname = usePathname();

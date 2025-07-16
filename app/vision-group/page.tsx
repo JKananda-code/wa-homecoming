@@ -17,7 +17,10 @@ export default function VisionGroupPage() {
     { src: '/Mumbi-3-Vg.jpeg', caption: 'Photo of VG Group Member' },
     { src: '/Mumbi-4-Vg.jpeg', caption: 'Photo of VG Group Member' },
     { src: '/Mumbi-5-Vg.jpeg', caption: 'Photo of VG Group Member' },
-    { src: '/Mumbi-6-Vg.jpeg', caption: 'Photo of VG Group Member' },];
+    { src: '/Mumbi-6-Vg.jpeg', caption: 'Photo of VG Group Member' },
+    { src: '/Mumbi-7-Vg.jpeg', caption: 'Photo of VG Group Member' },
+    { src: '/Mumbi-8-Vg.jpeg', caption: 'Photo of VG Group Member' },
+  ];
   const members = Array.from({ length: 0 }, (_, i) => ({    
   src: `/members${i + 1}.jpeg`,
  caption: `Members${i + 1}`

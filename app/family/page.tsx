@@ -12,17 +12,16 @@ export default function FamilyPage() {
     { src: '/wa-brothers-two.jpeg', caption: 'Relatives: Another view of relatives' },
     { src: '/wa-brothers-three.jpeg', caption: 'A third view of relatives' },
     { src: '/wa-sisters-one.jpeg', caption: 'Siblings: Wanjiku Sisters' },
-    { src: '/wa-sisters-two.jpeg', caption: 'Siblings: Another view of Sisters' },
+    { src: '/wa-BrothersTwo.jpeg', caption: 'Siblings: Wanjiku Brothers' },
     { src: '/wa-CakeInBasket.jpeg', caption: 'The Cake: Sharable Gift for the Parents.' },
     { src: '/wa-CuttingOfCake.jpeg', caption: 'Cake cut and shared on behalf of the Parents' },
     { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
     { src: '/Father-Grandfather.jpg', caption: 'Father and Grandfather: Elijah Kimotho Sr..' },
     { src: '/Mother-Grandmother.jpg', caption: 'Mother and Grandmother: Gathigia Kimotho.' },
     { src: '/Mwangi.jpeg', caption: 'Mum younest brother: Wanjiku Elijah Uncle' },
-    { src: '/Mureithi.jpg', caption: 'Mureithi: Elijah Wanjiku Uncle' },
+    { src: '/Mureithi.jpeg', caption: 'Mureithi: Elijah Wanjiku Uncle' },
     { src: '/Kinyua.jpeg', caption: 'Kinyua: Elijah Wanjiku uncle' },
-    { src: '/Wanjohi.jpg', caption: 'Wanjohi: Elijah Wanjiku uncle' },
-      ...Array.from({ length: 3 }, (_, i) => ({
+        ...Array.from({ length: 0 }, (_, i) => ({
      src: `/images/siblings${i + 1}.jpeg`,
       caption: `/siblings${i + 1}`,
     }))
