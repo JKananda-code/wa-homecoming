@@ -9,9 +9,9 @@ export default function WaitlistPage() {
           <h1 className="text-3xl md:text-4xl font-bold bg-yellow-300 p-4 rounded-lg">
             Waitlist for Women who want to join the Next Circle
           </h1>
-          <p className="text-lg md:text-xl">
+          <p className="justify justify-center text-lg md:text-xl">
             A Circle Group is a sisterhood dedicated to celebrating and supporting each other through life’s milestones.
-            When we formed our Circle we named it Vision.  We have been receiving enquiries by persons who want to join Vision Group. Unfortunately Vision,
+           When we formed our Circle we named it Vision.  We have been receiving enquiries by persons who want to join Vision Group. Unfortunately Vision,
             in its present Constitution, is a fixed group of 24 members who will complete the final homestead visit when the last person is visited.
             If you’re interested in being part of a future Vision Group or joining a circle similar to ours, please submit your details below.
           </p>

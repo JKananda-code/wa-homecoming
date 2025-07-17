@@ -19,9 +19,9 @@ export default function FamilyPage() {
     { src: '/Father-Grandfather.jpg', caption: 'Father and Grandfather: Elijah Kimotho Sr..' },
     { src: '/Mother-Grandmother.jpg', caption: 'Mother and Grandmother: Gathigia Kimotho.' },
     { src: '/Mwangi.jpeg', caption: 'Mum youngest brother: Wanjiku Uncle' },
-    { src: '/Mureithi.jpeg', caption: 'Mureithi: Elijah Wanjiku Brother' },
+    { src: '/Mureithi.jpeg', caption: 'Mureithi: Wanjiku Brother' },
     { src: '/Kinyua.jpeg', caption: 'Kinyua:Wanjiku Brother' },
-    { src: '/Maina.jpeg', caption: 'Maina: Wanjiku Wanjiku Brother' },
+    { src: '/Maina.jpeg', caption: 'Maina: Wanjiku Brother' },
         ...Array.from({ length: 0 }, (_, i) => ({
      src: `/images/siblings${i + 1}.jpeg`,
       caption: `/siblings${i + 1}`,
