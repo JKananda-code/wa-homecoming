@@ -5,7 +5,7 @@ export default function WaitlistPage() {
   return (
     <PageTransition>
       <section className="px-6 py-12 md:px-16 bg-white text-gray-900">
-        <div className="max-w-3xl mx-auto text-center space-y-6">
+        <div className="justify justify-center max-w-3xl mx-auto text-center space-y-6">
           <h1 className="text-3xl md:text-4xl font-bold bg-yellow-300 p-4 rounded-lg">
             Waitlist for Women who want to join the Next Circle
           </h1>
@@ -17,17 +17,16 @@ export default function WaitlistPage() {
           </p>
         <SectionHeader title="Please Complete the attached Form" />
         </div>
-      <div className="max-w-3xl mx-auto text-center space-y-6">
+      <div className="justify justify-center max-w-3xl mx-auto text-center space-y-6">
         <div className="max-w-3xl space-y-6">
           <p className="text-lg leading-relaxed">
-            </p>
             Our Vision Circle has been a transformative journey, and we’re excited to see it inspire others. While Vision itself is closed to new members, we are committed to fostering new circles that carry forward the spirit of sisterhood and celebration.
             If you’re interested in joining a future circle, we invite you to fill out the form below. We’ll keep your information on file and reach out when a new circle is ready to form.
-          
-          <p className="text-lg leading-relaxed">
+          </p> 
+          <p className="justify justify-center text-lg leading-relaxed">
             Some people have also been asking the criteria for joining a group like Vision. Whether you’re married, a single mother, or simply seeking connection, the Circle model is open to all women with hearts ready to celebrate, support, and grow together.
           </p>
-          <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-6 space-y-4">
+          <div className="justify justify-center bg-emerald-50 border border-emerald-200 rounded-lg p-6 space-y-4">
           <h3 className="text-xl font-semibold text-emerald-800"> What You will Need</h3>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>A willing heart and commitment to shared celebration</li>
@@ -36,7 +35,7 @@ export default function WaitlistPage() {
             </ul>
           </div>
 
-          <div className="mt-8 space-y-3">
+          <div className="justify justify-center mt-8 space-y-3">
             <h3 className="text-xl font-semibold">Join the Waitlist</h3>
             <form
               action="https://your-form-handler.com" // Replace with actual backend or form service

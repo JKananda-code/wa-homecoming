@@ -12,7 +12,7 @@ export default function Footer() {
           href="/contact-us"
           className="inline-block bg-white text-emerald-700 font-semibold px-6 py-3 rounded hover:bg-emerald-100 transition"
         >
-          <button>WaitList: Click here to Contact Vision Chairman</button>
+          <button>WaitList: Contact Vision Chairman</button>
 
         </Link>
         <p className="text-xs text-gray-200 mt-6">© {new Date().getFullYear()} Wanjiku Homecoming. By WebCatchup Design. All rights reserved.</p>
