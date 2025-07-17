@@ -1,3 +1,5 @@
+
+import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className="bg-emerald-800 text-white text-center py-8 px-6 mt-16">
@@ -6,14 +8,14 @@ export default function Footer() {
         <p className="text-sm">
           This cultural homecoming is more than a celebration—its a living connection across generations.
         </p>
-        <a
-          href="#"
+        <Link
+          href="/contact-us"
           className="inline-block bg-white text-emerald-700 font-semibold px-6 py-3 rounded hover:bg-emerald-100 transition"
         >
-          RSVP Contact Chairman - VG Group
+          <button>WaitList: Click here to Contact Vision Chairman</button>
 
-        </a>
-        <p className="text-xs text-gray-200 mt-6">© {new Date().getFullYear()} Wanjiku Homecoming. By Ken Design. All rights reserved.</p>
+        </Link>
+        <p className="text-xs text-gray-200 mt-6">© {new Date().getFullYear()} Wanjiku Homecoming. By WebCatchup Design. All rights reserved.</p>
       </div>
     </footer>
   );

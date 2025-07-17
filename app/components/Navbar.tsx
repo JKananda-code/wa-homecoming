@@ -9,7 +9,8 @@ const navItems = [
   { name: 'Family', path: '/family' },
   { name: 'Vision', path: '/vision-group' },
   { name: 'Celebrations', path: '/celebrations'},
-  { name: 'Contact-Us', path: '/Contact-Us' },];
+  { name: 'Contact', path: '/contact-us' },
+];
 
 export default function Navbar() {
   const pathname = usePathname();
