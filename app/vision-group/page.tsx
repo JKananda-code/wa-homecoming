@@ -12,7 +12,7 @@ export default function VisionGroupPage() {
     { src: '/VG-three.jpeg', caption: ' 3 VG Group Members'},
     { src: '/VG-four.jpeg', caption: ' 4 VG Group Members' }, 
     { src: '/Rev-Wanjiku.jpeg', caption: 'Wanjiku: VG Group Member' },
-    { src: '/Rev-Purity.jpg', caption:'Purity: VG Group Member' },
+    { src: '/Rev-Purity.jpeg', caption:'Purity: VG Group Member' },
     { src: '/Mumbi-1-Vg.jpeg', caption: 'Muthoni VG Group Member' },
     { src: '/Mumbi-2-Vg.jpeg', caption: 'Mary VG Group Member' },
     { src: '/Mumbi-3-Vg.jpeg', caption: 'Esther VG Group Member' },
