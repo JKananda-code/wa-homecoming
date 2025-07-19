@@ -15,7 +15,7 @@ export default function VisionGroupPage() {
     { src: '/Rev-Purity.jpeg', caption:'Purity: VG Group Member' },
     { src: '/Mumbi-1-Vg.jpeg', caption: 'Muthoni VG Group Member' },
     { src: '/Mumbi-2-Vg.jpeg', caption: 'Mary VG Group Member' },
-    { src: '/Mumbi-3-Vg.jpeg', caption: 'Esther VG Group Member' },
+    { src: '/Mumbi-3-Vg.jpeg', caption: 'Esther MC & VG Group Member' },
     { src: '/Mumbi-4-Vg.jpeg', caption: 'Poly VG Group Member' },
     { src: '/Mumbi-5-Vg.jpeg', caption: 'Monica VG  Group Member' },
     { src: '/Mumbi-6-Vg.jpeg', caption: 'Leah VG Group Member' },
