@@ -1,6 +1,5 @@
-// This component renders a navigation bar with links to different sections of the website.
-
 'use client';
+import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -8,14 +7,14 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { name: 'Intro', path: '/' },
   { name: 'Family', path: '/family' },
-  { name: 'Vision Group', path: '/vision-group' },
+  { name: 'Vision', path: '/vision-group' },
   { name: 'Celebrations', path: '/celebrations' },
-  { name: 'Contact Us', path: '/contact-us' },
+  { name: 'Contact', path: '/contact-us' },
 ];
 
 export default function Navbar() {
   const pathname = usePathname();
-
+ 
  return (
     <nav className="bg-emerald-700 text-white shadow">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
@@ -46,5 +45,6 @@ export default function Navbar() {
         </ul>
       </div>
     </nav>
-  );
+  )
 }
+
