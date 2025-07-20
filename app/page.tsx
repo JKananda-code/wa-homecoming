@@ -20,7 +20,7 @@ export default function Home() {
     </div>   
     <section className="bg-white text-gray-900 px-6 md:px-16">
       <div className="max-w-4xl mx-auto space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-yellow-500">Wanjiku Homecoming</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-center text-yellow-500">A Ceremony Rooted in our Culture</h1>
         <h2 className="text-lg leading-relaxed">
           <strong>Wanjiku Elijah’s Homecoming Ceremony</strong> is rooted in the rich cultural traditions of the Kikuyu community. The event, known as <em>Kamweretho</em> in Nyeri, honors parents and reconnects generations in a deeply meaningful way.
         </h2>

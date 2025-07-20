@@ -6,11 +6,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navItems = [
-  { name: 'Intro', path: '/' },
-  { name: 'Family', path: '/family' },
-  { name: 'Vision', path: '/vision-group' },
+  { name: 'Introduction', path: '/' },
+  { name: 'Family Photos', path: '/family' },
+  { name: 'Vision Photos', path: '/vision-group' },
   { name: 'Celebrations', path: '/celebrations' },
-  { name: 'Contact', path: '/contact-us' },
+  { name: 'Contact Us', path: '/contact-us' },
 ];
 
 export default function Navbar() {
@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <header className="bg-emerald-700 text-white shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <span className="text-xl font-bold">Wanjiku Homecoming</span>
+        <span className="text-xl font-bold text-yellow-300">Homecoming Ceremony ={'>'}</span>
         <button
           className="md:hidden text-2xl"
           onClick={() => setMenuOpen((prev) => !prev)}
