@@ -18,7 +18,7 @@ export default function FamilyPage() {
     { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
     { src: '/Father-Grandfather.jpg', caption: 'Father and Grandfather: Elijah Kimotho Sr..' },
     { src: '/Mother-Grandmother.jpg', caption: 'Mother and Grandmother: Gathigia Kimotho.' },
-    { src: '/Rev-Mwangi.jpeg', caption: 'Mum youngest brother: Wanjiku Uncle' },
+    { src: '/Rev-Mwangi.jpeg', caption: 'Mwangi: Wanjiku Uncle' },
     { src: '/Rev-Muriithi.jpeg', caption: 'Mureithi: Wanjiku Brother' },
     { src: '/Rev-Kinyua.jpeg', caption: 'Kinyua:Wanjiku Brother' },
     { src: '/Rev-Maina.jpeg', caption: 'Maina: Wanjiku Brother' },
