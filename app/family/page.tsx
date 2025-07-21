@@ -5,9 +5,9 @@ import SectionHeader from '../components/SectionHeader';
 export default function FamilyPage() {
   const images = [
     { src: '/wa-Wanjiku.jpeg', caption: 'Wanjiku Elijah' },
-    { src: '/wa-son.jpeg', caption: 'Son of Wanjiku: Elijah Kimotho Jr.' },
-    { src: '/wa-parents.jpeg', caption: 'Parents: Elijah & Gathigia Kimotho' },
-    { src: '/wa-Friends2.jpeg', caption: 'Friends: Mary & Mwihaki' },
+    { src: '/wa-son.jpeg', caption: 'Wanjiku Son: Elijah Kimotho Jr.' },
+    { src: '/wa-parents.jpeg', caption: 'Wanjiku Parents: Elijah & Gathigia Kimotho' },
+    { src: '/wa-Friends2.jpeg', caption: 'Wanjiku Friends: Mary & Mwihaki' },
     { src: '/wa-brothers-one.jpeg', caption: 'Relatives: Wanjiku uncles' },
     { src: '/wa-brothers-two.jpeg', caption: 'Relatives: Another view of relatives' },
     { src: '/wa-brothers-three.jpeg', caption: 'A third view of relatives' },
@@ -18,7 +18,7 @@ export default function FamilyPage() {
     { src: '/wa-Bishop-Kariuki.jpeg', caption: 'Distingished Guest: Bishop Kariuki from Thika graced the occasion' },
     { src: '/Father-Grandfather.jpg', caption: 'Father and Grandfather: Elijah Kimotho Sr..' },
     { src: '/Mother-Grandmother.jpg', caption: 'Mother and Grandmother: Gathigia Kimotho.' },
-    { src: '/Rev-Mwangi.jpeg', caption: 'Mwangi: Wanjiku Uncle' },
+    { src: '/Rev-Mwangi.jpeg', caption: 'Mwangi: Wanjiku Brother' },
     { src: '/Rev-Muriithi.jpeg', caption: 'Mureithi: Wanjiku Brother' },
     { src: '/Rev-Kinyua.jpeg', caption: 'Kinyua:Wanjiku Brother' },
     { src: '/Rev-Maina.jpeg', caption: 'Maina: Wanjiku Brother' },

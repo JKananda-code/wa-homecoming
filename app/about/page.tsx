@@ -36,10 +36,11 @@ export default function Introduction() {
         <div className="border-l-4 border-emerald-500 pl-4 text-gray-700 italic">
           “On June 28th, 2025, Wanjiku Elijah returned home to honor her beloved parents, Elijah and Gathigia Kimotho. She and her son, Elijah Kimotho, extended this love which has persisted across generations in Kikuyu community. She is especially grateful to those who came in person and to those who could not make it, she invites them to watch the pictures and videos found in this website and they will feel part of this ceremony.”
         </div>
-
+      <div className="justify justify-center items-center text-center">
         <p className="text-lg leading-relaxed">
           This celebration of family, tradition, and legacy brings the community together and ensures that younger generations connect with their heritage meaningfully and respectfully.
         </p>
+        </div>
       </div>
     </section>
   </>
