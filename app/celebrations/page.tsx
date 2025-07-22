@@ -19,6 +19,13 @@ export default function CelebrationsPage() {
         <p className="text-lg md:text-xl mb-6">
           Celebrating the rich traditions and joyous moments that define our community.
         </p>
+       <div>   
+        <video width="1200" height="400" controls className="mx-auto mb-4">
+            <source src="/videos/VID-20250630-WA0013-1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <p>VG Group Members Coming Home</p>
+        </div>
       <SectionHeader title="Celebration Highlights" />
       </div>
       <ImageGallery images={images} />

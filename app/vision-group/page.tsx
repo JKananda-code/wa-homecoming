@@ -5,8 +5,8 @@ import VideoPlayer from '../videos/page';
 
 export default function VisionGroupPage() {
   const coreMembers = [
-    { src: '/VG-Chairman.jpeg', caption: 'VG Group Member. Chairman?' },
-    { src: '/VG-MC.jpeg', caption: 'VG Master of Celemonies' },
+    { src: '/VG-Chairman.jpeg', caption: 'Wanjiku & VG Group Member' },
+    { src: '/VG-MC.jpeg', caption: 'Esther VG Master of Celemonies' },
     { src: '/VG-theCake.jpeg', caption: 'VG Cake presentation' },
     { src: '/VG-two.jpeg', caption: 'VG Group Members' },
     { src: '/VG-three.jpeg', caption: 'VG Group Members'},
